@@ -1,0 +1,41 @@
+<form action="#" class="question__form" id="form">	
+    <div class="question__name-box">
+        <label for="question__name">Как вас зовут?</label>
+        <div class="icon _icon-avatar-clean"></div>	
+        <input id="name" type="text" class="question__name _req _name" placeholder="Ваше имя" name="name">
+    </div>
+    <div class="question__info-block">
+    <div class="question__date-box">
+        <label for="question__birthday">Дата вашего рождения</label>
+        <div class="icon _icon-date"></div>	
+        <input id="birthday" type="text" name="birthdate" class="question__birthday _req _birthday" placeholder="16.12.1987" data-required>
+    </div>
+    <div class="question__gender">
+        <label>Пол</label>
+        <div class="form-gender">
+            <label class="gender">
+                <input type="radio" checked name="gender" value="male">
+                <span class="male"></span>
+            </label>
+            <label class="gender">
+                <input type="radio" name="gender" value="feemale">
+                <span class="female"></span>
+            </label>
+        </div>
+    </div>
+    </div>	
+    <div class="question__place-box">
+        <label for="question__place">Субъект РФ</label>
+        <div class="icon _icon-marker"></div>	
+        <input id="place" type="text" class="question__place _req _place" placeholder="Мурманская область" name="place">
+    </div>
+    <div class="question__text-box">
+        <label for="question__text-area">Ваш вопрос</label>
+        <div class="icon _icon-pen"></div>
+        <textarea id="text" class="question__text-area _req _question" name="message" cols="30" rows="7" placeholder="Текст сообщения"></textarea>
+    </div>
+    <div class="question__btn-box">
+        <button class="btn question__submit-btn" type="submit">Отправить</button>
+        <button class="btn question__reset-btn">Задать ещё вопрос</button>
+    </div>	
+</form>
